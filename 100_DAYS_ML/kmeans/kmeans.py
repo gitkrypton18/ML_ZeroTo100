@@ -2,8 +2,8 @@ import random
 import numpy as np
 
 class KMeans:
-    def __init__(self,n_clusters=2,max_iter=100):
-        self.n_clusters = n_clusters
+    def __init__(self,n_clusters=2,max_iter=100): # assign default value for n_clusters and max_iter
+        self.n_clusters = n_clusters 
         self.max_iter = max_iter
         self.centroids = None
 
